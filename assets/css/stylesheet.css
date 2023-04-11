@@ -218,7 +218,7 @@ body::-webkit-scrollbar-thumb {
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     font-family: "Mont-Light";
 }
 
