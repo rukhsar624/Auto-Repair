@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -24,20 +25,28 @@
     <link href="./assets/css/stylesheet.css" rel="stylesheet">
     <title>AutoRepair | Home</title>
 </head>
+
 <body>
     <!--=================Header Open====================--->
     <header class="header" id="navbar-fixed-top">
-        <div class="container">
+        <div class="">
             <nav class="destop-nav-bar">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="logo">
-                        <a href="./index.html">
-                            <img src="./assets/images/1x/logo.png" alt="img">
-                        </a>
+                        <div class="logoImg">
+                            <div class="logoDiv">
+                                <div class="logoDivImg">
+                                    <img src="./assets/images/1x/logo.png" alt="img">
+                                </div>
+                            </div>
+                            <!-- <a href="./index.html">
+                                <img src="./assets/images/1x/logo.png" alt="img">
+                            </a> -->
+                        </div>
                     </div>
                     <div class="link">
                         <div class="d-flex justify-content-end">
-                         <a href="./index.html" class="header_links">Home</a> 
+                            <a href="./index.html" class="header_links active">Home</a>
                             <a href="./assets/pages/About-us.html" class="header_links">About Us</a>
                             <a href="./assets/pages/Services.html" class="header_links">Services</a>
                             <a href="./assets/pages/Blog.html" class="header_links">Blogs</a>
@@ -66,31 +75,83 @@
                 <div class="imglogo text-center"><a href="">
                         <img src="./assets/images/1x/logo.png" alt="img">
                     </a></div>
-                <div class="item for-cstm-collapse">
-                    <button class="btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                        data-bs-target="#dashboard-collapse" aria-expanded="false">
-                        Home<i class="fa-solid fa-caret-down"></i>
-                    </button>
-                    <div class="collapse" id="dashboard-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a class="link-dark rounded" href=".../../index.html">Home 1</a></li>
-                            <li><a class="link-dark rounded" href=".../../index1.html">Home 2</a></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="item"><a href="./assets/pages/about-us.html" class="header_links">About Us</a></div>
-                <!-- <div class="item"><a href="./assets/pages/Explore.html" class="header_links">Explore Work</a></div> -->
-                <div class="item"><a href="./assets/pages/shop.html" class="header_links">Shop</a></div>
-                <div class="item"><a href="./assets/pages/contact-us.html" class="header_links">Contact Us</a></div>
-                <div class="item"><a href="./assets/pages/sign-in.html"><i class="fa-solid fa-user"></i></a></div>
+                <div class="item"><a href="./index.html" class="header_links active">Home</a></div>
+                <div class="item"><a href="./assets/pages/About-us.html" class="header_links">About Us</a></div>
+                <div class="item"><a href="./assets/pages/Services.html" class="header_links">Services</a></div>
+                <div class="item"><a href="./assets/pages/Blog.html" class="header_links">Blogs</a></div>
+                <div class="item"><a href="./assets/pages/contact-us.html" class="header_links"> Contact Us</a></div>
             </div>
         </div>
     </header>
     <!--=================Header Close===================--->
-    
-  
-    
+    <!--=================Banner Open===================--->
+    <section class="homeBanner">
+        <div class="banner1 d-flex justify-content-between">
+            <div class="goldenDiv">
+                <div class="goldenDivImg">
+                    <img src="./assets/images/1x/goldenCar.png" alt="">
+                </div>
+            </div>
+            <div class="leftBannerDiv">
+                <div class="leftTextdiv">
+                    <h5>Welcome to</h5>
+                    <h1>one stop zone</h1>
+                    <h2>Auto Repair</h2>
+                    <a href=""><button type="button" class="cstmBtn">Contact Now</button></a>
+                </div>
+            </div>
+            <div class="rightBannerDiv">
+                <div class="curveDiv">
+                    <div class="curveImgDiv">
+                        <img src="./assets/images/1x/overlay.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=================Banner Close===================--->
+    <!--=================About Section Open===================--->
+    <section class="aboutSectionHome">
+        <div class="orgDiv"></div>
+        <div class="row g-0">
+            <div class="col-lg-7">
+                <div class="orgDiv">
+                    <div class="orginDivImg">
+                        <img src="./assets/images/1x/orangeCar.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="orgDiv d-flex justify-content-center flex-column">
+                    <h1>About Us</h1>
+                <h5>Welcome to</h5>
+                <h3>Our Shop</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                    dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla
+                    facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+                    delenit augue duis dolore te feugait nulla facilisi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=================About Section Close===================--->
+    <!--=================Services Section Open===================--->
+    <section class="servicesSec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=================Services Section Close===================--->
+
+
+
+
     <!-- JavaScript Libraries -->
     <!-- Jquery -->
     <script src="./assets/js/jquery.min.js"></script>
@@ -103,4 +164,5 @@
     <!-- Custom Javascript -->
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>

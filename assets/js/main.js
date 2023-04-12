@@ -13,7 +13,7 @@
         $(".destop-nav-bar .logo h1").css("color", "#ffffff");
         $(".destop-nav-bar .header_links.active").css(
           "border-bottom",
-          "2px solid #8b0129;"
+          "2px solid #FFA227;"
         );
         $(".hamburger div").css(
           "background", "#000"
@@ -21,19 +21,14 @@
         $(".hamburger.active div").css(
           "background", "#8b0129"
         );
-        $(".destop-nav-bar .fa-solid " ).css("color" ,"#000");
-        $(".destop-nav-bar .fa-regular " ).css("color" ,"#000");
-        $(".destop-nav-bar .example" ).css("border" ,"2px solid #000");
-        $(".destop-nav-bar .example" ).css("border-radius" ,"10px");
-  
       } else {
         $("#navbar-fixed-top").css("background", "none");
         $("#navbar-fixed-top").css("box-shadow", "none");
-        $(".destop-nav-bar .header_links").css("color", "#000");
+        $(".destop-nav-bar .header_links").css("color", "#fff");
         $(".destop-nav-bar .logo h1").css("color", "#1a1a1a");
         $(".destop-nav-bar .header_links.active").css(
           "border-bottom",
-          "2px solid #8b0129;"
+          "2px solid #FFA227;"
         );
         $(".hamburger div").css(
           "background", "red"
@@ -41,9 +36,6 @@
         $(".hamburger.active div").css(
           "background", "#00000"
         );
-        $(".destop-nav-bar .fa-solid " ).css("color" ,"#000");
-        $(".destop-nav-bar .fa-regular " ).css("color" ,"#000");
-        $(".destop-nav-bar .example" ).css("border" ,"none");
       }
     });
     // MOBILE SCREEN SIDE NAV
