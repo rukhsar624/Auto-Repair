@@ -7,16 +7,16 @@
     $(window).scroll(function () {
       var scroll = $(window).scrollTop();
       if (scroll > 90) {
-        $("#navbar-fixed-top").css("background", "#ffffff");
+        $("#navbar-fixed-top").css("background", "#000");
         $("#navbar-fixed-top").css("box-shadow", "rgb(0 0 0 / 46%) 8px 8px 33px");
-        $(".destop-nav-bar .header_links").css("color", "#000000");
+        $(".destop-nav-bar .header_links").css("color", "#fff");
         $(".destop-nav-bar .logo h1").css("color", "#ffffff");
         $(".destop-nav-bar .header_links.active").css(
           "border-bottom",
           "2px solid #FFA227;"
         );
         $(".hamburger div").css(
-          "background", "#000"
+          "background", "#FFA227"
         );
         $(".hamburger.active div").css(
           "background", "#8b0129"
@@ -31,7 +31,7 @@
           "2px solid #FFA227;"
         );
         $(".hamburger div").css(
-          "background", "red"
+          "background", "#FFA227"
         );
         $(".hamburger.active div").css(
           "background", "#00000"
