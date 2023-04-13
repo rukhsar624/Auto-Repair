@@ -47,6 +47,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 @font-face {
+    font-family: "Mont-Thin";
+    src: url("../../assets/fonts/Montserrat/Montserrat-Thin.ttf");
+}
+
+@font-face {
     font-family: "Gobold-Reg";
     src: url("../../assets/fonts/Gobold/Gobold\ Regular.otf");
 }
@@ -289,7 +294,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .destop-nav-bar .link a:hover {
-    color: #8b0129;
+    color: #FFA227;
 }
 
 .destop-nav-bar a {
@@ -404,14 +409,17 @@ body::-webkit-scrollbar-thumb {
 .orgDiv {
     width: 100%;
     height: 100%;
-    /* background-color: #343838; */
 }
 
 .orginDivImg {
     width: 100%;
     height: 100%;
 }
-
+.orginDivImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .servicesSec h3 {
     color: #000;
     font-family: "Gobold-Reg";
@@ -455,7 +463,11 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     padding-top: 2rem;
 }
-
+.iconSecDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 .secDiv h5 {
     color: #fff;
     font-family: "Mont-Semi-Bold";
@@ -533,8 +545,12 @@ body::-webkit-scrollbar-thumb {
     padding-top: 4rem;
     padding-bottom: 2rem;
 }
+.blogSection a{
+    text-decoration: none;
+}
 .card{
     border: none;
+    margin-bottom: 3rem;
 }
 .cardDiv{
     width: 100%;
@@ -572,29 +588,406 @@ body::-webkit-scrollbar-thumb {
     height: 100%;
     object-fit: cover;
 }
-.triDiv{
+.cardBodyDivImg h4{
+    color: #fff;
+    font-family: "Mont-Semi-Bold";
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.cardBodyDivImg span{
+    color: #fff;
+    font-family: "Mont-Thin";
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.cardBodyDivImg p{
+    color: #F2F2F2;
+    font-family: "Mont-Light";
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 15px;
+    width: 80%;
+}
+/* ========Blog Section css closed======== */
+/* ========Contact Section css closed======== */
+.contactSection h3{
+    color: #000;
+    font-family: "Gobold-Reg";
+}
+.contactSection input{
+    width: 90%;
+    padding: 10px;
+    font-family: "Mont-Light";
+    color: #000;
+}
+.contactSection textarea{
+    width: 90%;
+    padding: 10px;
+    font-family: "Mont-Light";
+    color: #000;
+}
+.cstmBtn1 {
+    background-color: #FFA227;
+    color: #fff;
+    font-family: "Poppins-Light";
+    border: none;
+    padding: 10px 40px;
+}
+.cstmBtn1:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #FFA227;
+}
+/* ========Contact Section css closed======== */
+/* ========Footer Section css Open======== */
+.footer{
+    background-color: #000;
+}
+.footer-bottom span {
+    color: #fff;
+    font-family: "Poppins-Light";
+}
+.footer ul li a {
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 0;
+    color: #fff;
+    font-family: "Mont-Light";
+    padding-left: 0;
+}
+.footer p {
+    color: #fff;
+    font-family: "Mont-Bold";
+}
+.footer-bottom {
+    padding: 15px;
+}
+#bottom {
+    background-color: #FFA227;
+}
+.footerCont ul li i {
+    margin-right: 11px;
+    font-size: 16px;
+}
+#footerIcondiv i {
+    color: #fff;
+}
+.footerIcondiv, .span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerIcondiv i {
+    color: #fff;
+}
+.footerIcondiv {
+    width: 50px;
+    height: 25px;
+}
+/* ========Footer Section css closed======== */
+/* ========About Page css open======== */
+.banner2 {
+    min-height: 550px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-image: url("../../assets/images/1x/aboutBanner.png");
+}
+.orgline{
+    width: 400px;
+    height: 35px;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    bottom: 0;
-    right: 0;
+    top: 140px;
+    right: 0px;
+    background-color: #FFA227;
 }
-.triDivImg{
-    width: 100px;
-    height: 100px;
+.aboutBanner h1{
+    color: #fff;
+    font-family: "Gobold-Reg";
+    padding-left: 5.5rem;
 }
-.triDivImg img{
+.aboutSection {
+    background-color: #F2F2F2;
+    position: relative;
+    padding-top: 5rem;
+}
+.aboutorgDiv {
+    width: 100%;
+    height: 100%;
+}
+.aboutorgDiv h5{
+    color:#000;
+    font-family: "Mont-Light";
+}
+.aboutorgDiv h3{
+    color:#000;
+    font-family: "Mont-Bold";
+}
+.aboutorgDiv p{
+    color:#666666;
+    font-family: "Mont-Light";
+    width: 80%;
+}
+.para p{
+    color:#666666;
+    font-family: "Mont-Light";
+}
+.para h3{
+    color:#000;
+    font-family: "Mont-Bold";
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+/* ========About Page css closed======== */
+/* ========Contact Page css open======== */
+.banner3 {
+    min-height: 550px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-image: url("../../assets/images/1x/contactBanner.png");
+}
+.contactBanner h1{
+    color: #fff;
+    font-family: "Gobold-Reg";
+    padding-left: 5.5rem;
+}
+.orglineCon{
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: #FFA227;
+}
+.Info{
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+.Info h3{
+    color: #000;
+    font-family: "Gobold-Reg";
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.contIconDiv{
+    width: 50px;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #343838; */
+}
+.iconDivCont{
+    width: 100%;
+    height: 100%;
+    /* background-color: #8b0129; */
+}
+.iconDivCont img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.blackDiv{
+    width: 100%;
+    background-color: #000;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.orangeDiv{
+    width: 100%;
+    background-color: #FFA227;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blackDiv a  , .orangeDiv a{
+    text-decoration: none;
+    font-family: "Mont-Light";
+    color: #fff;
+}
+/* ========Contact Page css closed======== */
+
+/* ========Blog Page css open======== */
+.blogSec{
+    margin-top: 3rem;
+    padding-bottom: 10rem;
+}
+.blogSec a{
+    text-decoration: none;
+}
+.banner4 {
+    min-height: 550px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-image: url("../../assets/images/1x/blogBanner.png");
+}
+.blogBanner h1{
+    color: #fff;
+    font-family: "Gobold-Reg";
+    padding-left: 5.5rem;
+}
+/* ========Blog Page css closed======== */
+
+/* ========Blog-Inner Page css open======== */
+.banner5 {
+    min-height: 400px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.blogdetails{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.blogdetails p{
+    color: #666666;
+    font-family: "Mont-Light";
+    margin-top: 4rem;
+}
+.blogBannerinner h1{
+    color: #fff;
+    font-family: "Gobold-Reg";
+   text-align: center;
+}
+.blogImg{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.line{
+    position: absolute;
+    width: 350px;
+    height: 15px;
+    top: 10px;
+    right: -230px;
+    background-color: #FFA227;
+}
+.blogImgDiv{
+    width: 100%;
+    height: 100%;
+}
+.blogImgDiv img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-/* ========Blog Section css closed======== */
+.blogText{
+    margin-bottom: 3rem;
+}
+.blogText{
+    color: #666666;
+   font-family: "Mont-Light";
+}
+/* ========Blog-Inner Page css closed======== */
 
-
-
-
-
+/* ========terms & conditions Page css open======== */
+.banner6 {
+    min-height: 400px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.termsection h1{
+    color: #fff;
+    font-family: "Gobold-Reg";
+   text-align: center;
+}
+.termconDetails{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.termconDetails p{
+   color: #666666;
+   font-family: "Mont-Light";
+   text-align: center;
+}
+/* ========terms & conditions Page css closed======== */
+/* ========Services Page css open======== */
+.banner7 {
+    min-height: 550px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-image: url("../../assets/images/1x/serviceBanner.png");
+}
+.serBanner h1{
+    color: #fff;
+    font-family: "Gobold-Reg";
+    padding-left: 5.5rem;
+}
+.serSection{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.div{
+    width: 300px;
+    height: 175px;
+    background: linear-gradient(113deg, #FFA227 80%, #FFF 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divIcon{
+    width: 140px;
+    height: 130px;
+}
+ .divIconImg{
+    width: 140px;
+    height: 130px;
+}
+.divIconImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+} 
+.div1{
+    width: 300px;
+    height: 175px;
+    background: linear-gradient(113deg, #FFF 20%, #000 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divIcon1{
+    width: 140px;
+    height: 130px;
+}
+ .divIconImg1{
+    width: 140px;
+    height: 130px;
+}
+.divIconImg1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+} 
+.serSection h3{
+    color: #000;
+    font-family: "Gobold-Reg";
+}
+/* ========Services Page css closed======== */
 
 
 
