@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #275A55;
+    background-color: #FFA227;
     border-radius: 10px;
 }
 
@@ -669,7 +669,7 @@ body::-webkit-scrollbar-thumb {
     font-family: "Mont-Light";
     color: #000;
 }
-.cstmBtn1 {
+/* .cstmBtn1 {
     background-color: #FFA227;
     color: #fff;
     font-family: "Poppins-Light";
@@ -680,7 +680,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #fff;
     color: #000;
     border: 1px solid #FFA227;
-}
+} */
 /* ========Contact Section css closed======== */
 /* ========Footer Section css Open======== */
 .footer{
@@ -1526,6 +1526,15 @@ form , .contactSection h3{
     font-family: "Mont-Light";
     width: 100%;
     text-align: center;
+}
+.card {
+    border: none;
+    margin-bottom: 3rem;
+    height: 490px;
+}
+.blogSec {
+    margin-top: 3rem;
+    padding-bottom: 0rem;
 }
 }
 @media only screen and (max-width:390px) {}
