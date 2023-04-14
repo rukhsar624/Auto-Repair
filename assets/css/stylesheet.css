@@ -1132,6 +1132,13 @@ body::-webkit-scrollbar-thumb {
     #main-content {
         display: none;
     }
+    .logoImg {
+        width: 100%;
+        height: 145px;
+    }
+    .banner2 , .banner7  , .banner4 , .banner3{
+        min-height: 50vh;
+    }
 }
 
 /* ===================  
