@@ -240,7 +240,7 @@ body::-webkit-scrollbar-thumb {
 .logoImg {
     width: 100%;
     height: 85px;
-    background-image: url("../../assets/images/1x/logoImg.png");
+    background-image: url("../../assets/images/1x/logoImg.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -478,7 +478,7 @@ body::-webkit-scrollbar-thumb {
 .sertopImg {
     width: 100%;
     height: 130px;
-    background-image: url("../images/1x/orgLine.png");
+    background-image: url("../images/1x/orgLine.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -522,7 +522,7 @@ body::-webkit-scrollbar-thumb {
 /* ========About Section css closed======== */
 /* ========let’s take car css closed======== */
 .letImg {
-    background: url("../../assets/images/1x/bg.png");
+    background: url("../../assets/images/1x/bg.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -542,7 +542,7 @@ body::-webkit-scrollbar-thumb {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url("../../assets/images/1x/overlay3.png");
+    background-image: url("../../assets/images/1x/overlay3.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -618,7 +618,7 @@ body::-webkit-scrollbar-thumb {
 .cardBodyDivImg{
     width: 100%;
     height: 250px;
-    background-image: url("../../assets/images/1x/blackbg_1.png");
+    background-image: url("../../assets/images/1x/blackbg_1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -743,7 +743,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    background-image: url("../../assets/images/1x/aboutBanner.png");
+    background-image: url("../../assets/images/1x/aboutBanner.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -802,7 +802,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    background-image: url("../../assets/images/1x/contactBanner.png");
+    background-image: url("../../assets/images/1x/contactBanner.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -889,7 +889,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    background-image: url("../../assets/images/1x/blogBanner.png");
+    background-image: url("../../assets/images/1x/blogBanner.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -989,7 +989,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    background-image: url("../../assets/images/1x/serviceBanner.png");
+    background-image: url("../../assets/images/1x/serviceBanner.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
